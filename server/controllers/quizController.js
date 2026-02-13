@@ -2,16 +2,16 @@ const QuizQuestion = require("../models/QuizQuestion");
 const User = require("../models/User");
 
 const giftMap = {
-  1: "Are you fr? 😠",
+  1: "noo 😠",
   2: "Bruh 🙄",
   3: "Really? 🥺",
-  4: "Pat 😒",
-  5: "Hug 🌹",
-  6: "Kiss 💋",
-  7: "Chocolate 🍫",
-  8: "Cake 🎂",
-  9: "Food 🥘",
-  10: "ME ✨"
+  4: "what 😒",
+  5: "nice try 🌹",
+  6: "medium 💋",
+  7: "Chocolatey heart 🍫",
+  8: "i want that Cake 🎂",
+  9: "spin wheel",
+  10: "spin wheel ✨"
 };
 
 // GET QUESTIONS (NO correct answers)
@@ -52,7 +52,7 @@ exports.submitQuiz = async (req, res) => {
     10: "ME ✨"
   };
 
-  const gift = giftMap[score] || "No gift 😢";
+  const gift = giftMap[score] || "Spin the wheel";
 
   res.json({
     score,
