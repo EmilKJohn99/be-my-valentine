@@ -2,16 +2,16 @@ const QuizQuestion = require("../models/QuizQuestion");
 const User = require("../models/User");
 
 const giftMap = {
-  1: "Chocolate 🍫",
-  2: "Teddy Bear 🧸",
-  3: "Roses 🌹",
-  4: "Strawberries 🍓",
-  5: "Metal Rose 🌹✨",
-  6: "Setting Spray 💄",
-  7: "Cash ₹1000 💵",
-  8: "Minimalist Skincare Full Set 🧴",
-  9: "Dozen Scented Candles 🕯️",
-  10: "MAC Foundation 💄✨"
+  1: "Are you fr? 😠",
+  2: "Bruh 🙄",
+  3: "Really? 🥺",
+  4: "Pat 😒",
+  5: "Hug 🌹",
+  6: "Kiss 💋",
+  7: "Chocolate 🍫",
+  8: "Cake 🎂",
+  9: "Food 🥘",
+  10: "ME ✨"
 };
 
 // GET QUESTIONS (NO correct answers)
@@ -40,16 +40,16 @@ exports.submitQuiz = async (req, res) => {
   score = Number(score);
 
   const giftMap = {
-    1: "Chocolate 🍫",
-    2: "Teddy Bear 🧸",
-    3: "Roses 🌹",
-    4: "Strawberries 🍓",
-    5: "Metal Rose 🌹✨",
-    6: "Setting Spray 💄",
-    7: "Cash ₹1000 💵",
-    8: "Minimalist Skincare Full Set 🧴",
-    9: "Dozen Scented Candles 🕯️",
-    10: "MAC Foundation 💄✨"
+    1: "Are you fr? 😠",
+    2: "Bruh 🙄",
+    3: "Really? 🥺",
+    4: "Pat 😒",
+    5: "Hug 🌹",
+    6: "Kiss 💋",
+    7: "Chocolate 🍫",
+    8: "Cake 🎂",
+    9: "Food 🥘",
+    10: "ME ✨"
   };
 
   const gift = giftMap[score] || "No gift 😢";

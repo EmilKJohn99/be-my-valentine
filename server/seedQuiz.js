@@ -6,54 +6,54 @@ mongoose.connect(process.env.MONGO_URI);
 
 const questions = [
   {
-    question: "Our First Date spot?",
-    options: ["KFC", "Chicking", "Burger Spot", "Biryani Souq"],
-    correctAnswer: "Chicking"
+    question: "Where was our First Date?",
+    options: ["Coffee Day", "Starbucks", "Costa Coffee", "Hugs and Coffee"],
+    correctAnswer: "Starbucks"
   },
   {
-    question: "Our Couple Song?",
-    options: ["Saahiba", "kalyani", "Singaari", "ishq bulaava"],
-    correctAnswer: "kalyani"
+    question: "How did *we* start talking?",
+    options: ["Asking about how to reach Varkala", "Was in the same group for an activity", "Reel about North Indians vs South Indians", "Talk about Omlettes being rich in protein"],
+    correctAnswer: "Reel about North Indians vs South Indians"
   },
   {
-    question: "the movie we first saw as a date?",
-    options: ["weapons", "Durandhar", "superman", "Formula 1"],
-    correctAnswer: "Formula 1"
+    question: "The first movie we saw together?",
+    options: ["Ohm Shanthi Oshana", "Lokah", "Ok Jaanu", "Padakkalam"],
+    correctAnswer: "Padakkalam"
   },
   {
-    question: "the type of cuisine we have eaten the most at our dates?",
-    options: ["asian", "indian", "italian", "continental"],
-    correctAnswer: "asian"
+    question: "The food item we really wanted to try in Varkala but wasn't able to",
+    options: ["Veggie-Egg wrap", "White sauce pasta", "Red sauce pasta", "Pizza"],
+    correctAnswer: "White sauce pasta"
   },
   {
-    question: "how many grams of pup start did soju need?",
-    options: ["5", "8", "15","10"],
-    correctAnswer: "10"
+    question: "The vegetable I refer to you as?",
+    options: ["Tomato", "Cucumber", "Potato","Pumpkin"],
+    correctAnswer: "Potato"
   },
   {
-    question: "when we went dolls have i won for you in an arcade?",
-    options: ["1", "2", "3", "4"],
-    correctAnswer: "2"
+    question: "How many plushies did you win for me in the arcade?",
+    options: ["0", "1", "5", "78"],
+    correctAnswer: "0"
   },
   {
-    question: "which movie did we book tickets for and didnt see?",
-    options: ["the housemaid", "vilaayath buddha", "conjuring 4", "eko"],
-    correctAnswer: "conjuring 4"
+    question: "What was the first gift I got for you?",
+    options: ["Facewash", "Ice roller", "Rings and Chains", "Adidas Sliders"],
+    correctAnswer: "Rings and Chains"
   },
   {
-    question: "the was the worst fast food place we went to?",
-    options: ["AFC", "KFC", "Chicking", "Popeyes"],
-    correctAnswer: "AFC"
+    question: "In Varkala, what did you see that instantly made you light up with happiness?",
+    options: ["ME 😘", "Beach", "A random lady wearing a bikini", "Beer"],
+    correctAnswer: "Beer"
   },
   {
-    question: "the drink made you sick?",
-    options: ["Mac Dowells", "Royal Stag", "Officer's Choice", "Old monk"],
-    correctAnswer: "Officer's Choice"
+    question: "My favourite accessary of yours?",
+    options: ["Kala", "Glasses", "Black beaded necklace", "Ring"],
+    correctAnswer: "Glasses"
   },
   {
-    question: "the mocktail we made,what all was in it?",
-    options: ["apple juice,orange juice,green apple", "apple juice,grape juice,lemon", "apple juice,orange juice,lemon ", "grape juice,lemon juice,green apple"],
-    correctAnswer: "apple juice,orange juice,lemon"
+    question: "I got us Christmas socks last time we had met, what was the color of them?",
+    options: ["red and blue", "yellow and orange", "red and yellow ", "yellow and green"],
+    correctAnswer: "red and yellow"
   }
 ];
 
