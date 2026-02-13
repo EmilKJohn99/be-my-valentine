@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Plus Jakarta Sans", "Segoe UI", "Roboto", sans-serif;
 }
 
 .center-card {
